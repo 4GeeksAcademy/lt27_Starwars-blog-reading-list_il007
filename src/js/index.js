@@ -14,3 +14,19 @@ const root = createRoot(document.querySelector("#app"))
 //render your react application
 root.render(<Layout/>)
 
+//Nivel FE
+    //Crear un componente que cargue el header.
+    //Crear un componente que cargue el los character.
+    //Crear un componente que cargue los planetas.
+    //Crear un componente que cargue los vehiculos.
+    //Buscar imagenes correspondientes en https://starwars-visualguide.com
+    
+
+//Nivel BE
+    //Entender SWAPI.
+    //Fetch personajes.
+    //Fetch planetas.
+    //Fetch vehiculos.
+    //Mostrar la opción para agregar a favoritos y que estos se acumulen 
+    // en un array.
+
