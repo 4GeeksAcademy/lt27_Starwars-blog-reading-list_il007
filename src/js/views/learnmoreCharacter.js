@@ -10,7 +10,7 @@ export const CharactersDetail = (props) => {
   const params = useParams();
 
   useEffect(() => {
-    fetch("https://swapi.info/tech/people/" + params.character_uid)
+    fetch("https://swapi.info/api/people/" + params.character_uid)
       .then((response) => response.json())
       .then((data) => setDetails(data));
   }, []);

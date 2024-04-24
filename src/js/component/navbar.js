@@ -19,7 +19,7 @@ export const Navbar = (props) => {
       </Link>
 
       <div className="p-3 mb-2 bg-dark-subtle text-dark-emphasis">
-        <div className="btn-group">
+        <div className="btn-group dropstart">
           <button
             type="button"
             className="btn btn-primary dropdown-toggle"

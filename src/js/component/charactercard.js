@@ -15,11 +15,11 @@ const CharacterCard = (props) => {
         </h5>
         <p>{props.uid}</p>
         <p className="card-text">gender:{props.gender}</p>
-        <p className="card-text">hair color:{props.hairColor}</p>
+        <p className="card-text">hair color:{props.hair_Color}</p>
         <p className="card-text">eyes color:{props.eye_color}</p>
         <div className="d-flex justify-content-between">
           <Link
-            to={"/learmoreCharacthersDetail/" + props.uid}
+            to={"/CharactersDetail/" + props.uid}
             className="btn btn-outline-primary"
           >
             <span>Learn More</span>
